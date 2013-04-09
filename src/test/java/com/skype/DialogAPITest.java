@@ -22,12 +22,10 @@
  ******************************************************************************/
 package com.skype;
 
-import java.io.File;
-
-import org.junit.Ignore;
 import org.junit.Test;
 
-@Ignore
+import java.io.File;
+
 public class DialogAPITest {
 	@Test
     public void testShowMainWindow() throws Exception {

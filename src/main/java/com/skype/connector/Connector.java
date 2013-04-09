@@ -290,7 +290,7 @@ public abstract class Connector {
 	 * Sets the status of this connector. After setting, an status changed event
 	 * will be sent to the all listeners.
 	 * 
-	 * @param newValue
+	 * @param newStatus
 	 *            the new status
 	 * @throws NullPointerException
 	 *             if the specified status is null
@@ -1104,7 +1104,7 @@ public abstract class Connector {
 	/**
 	 * Fires a message event.
 	 * 
-	 * @param listenerList
+	 * @param listeners
 	 *            the event listener list
 	 * @param message
 	 *            the message that triggered the event
